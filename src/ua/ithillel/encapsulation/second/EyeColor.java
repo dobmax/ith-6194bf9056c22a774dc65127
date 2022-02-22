@@ -1,0 +1,13 @@
+package ua.ithillel.encapsulation.second;
+
+public class EyeColor {
+    private String color;
+    private String hex;
+    private int type;
+
+    public EyeColor(String color, String hex, int type) {
+        this.color = color;
+        this.hex = hex;
+        this.type = type;
+    }
+}
