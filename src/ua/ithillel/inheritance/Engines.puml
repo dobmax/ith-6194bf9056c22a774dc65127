@@ -1,0 +1,12 @@
+@startuml
+
+class Object {}
+
+class Engine extends Object {
+    #start(): void
+}
+
+class WaterEngine extends Engine {}
+class ElectricityEngine extends Engine {}
+
+@enduml
