@@ -1,0 +1,14 @@
+@startuml
+
+class Object {
+    + toString(): String
+}
+class Number extends Object
+class Integer extends Number
+class Printer extends Object {
+    + {abstract} print(): void
+}
+class StdoutPrinter extends Printer
+class PdfPrinter extends Printer
+
+@enduml
