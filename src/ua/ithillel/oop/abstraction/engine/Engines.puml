@@ -1,0 +1,10 @@
+@startuml
+
+interface Engine {
+    + {abstract} start(): void
+}
+abstract class BasicEngine implements Engine
+class WaterEngine extends BasicEngine
+class AirEngine extends BasicEngine
+
+@enduml
