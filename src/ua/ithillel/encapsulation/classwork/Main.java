@@ -1,6 +1,6 @@
-package ua.ithillel;
+package ua.ithillel.encapsulation.classwork;
 
-import ua.ithillel.encapsulation.second.Animal;
+import ua.ithillel.encapsulation.classwork.second.Animal;
 
 public class Main {
     public static void main(String[] args) {

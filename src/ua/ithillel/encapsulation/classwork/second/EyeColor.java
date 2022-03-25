@@ -1,4 +1,4 @@
-package ua.ithillel.encapsulation.second;
+package ua.ithillel.encapsulation.classwork.second;
 
 public class EyeColor {
     private String color;

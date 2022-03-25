@@ -1,4 +1,4 @@
-package ua.ithillel.encapsulation.first.protect;
+package ua.ithillel.encapsulation.classwork.first.protect;
 
 public abstract class InPackageClass {
 

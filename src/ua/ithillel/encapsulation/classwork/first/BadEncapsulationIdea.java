@@ -1,4 +1,4 @@
-package ua.ithillel.encapsulation.first;
+package ua.ithillel.encapsulation.classwork.first;
 
 /**
  * Private
