@@ -1,0 +1,11 @@
+package ua.ithillel.exceptions;
+
+public class CoordinateOutRangeException extends RuntimeException {
+    public CoordinateOutRangeException(String message) {
+        super(message);
+    }
+
+    public CoordinateOutRangeException(String message, Throwable cause) {
+        super(message, cause);
+    }
+}
