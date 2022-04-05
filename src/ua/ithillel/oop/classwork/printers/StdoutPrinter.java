@@ -1,4 +1,4 @@
-package ua.ithillel.oop.printers;
+package ua.ithillel.oop.classwork.printers;
 
 public class StdoutPrinter extends Printer {
     @Override

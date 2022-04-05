@@ -1,4 +1,4 @@
-package ua.ithillel.oop.printers;
+package ua.ithillel.oop.classwork.printers;
 
 public abstract class Printer {
     public abstract void print();

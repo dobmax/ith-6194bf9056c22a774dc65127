@@ -1,8 +1,8 @@
-package ua.ithillel.oop;
+package ua.ithillel.oop.classwork;
 
-import ua.ithillel.oop.printers.PdfPrinter;
-import ua.ithillel.oop.printers.Printer;
-import ua.ithillel.oop.printers.StdoutPrinter;
+import ua.ithillel.oop.classwork.printers.PdfPrinter;
+import ua.ithillel.oop.classwork.printers.Printer;
+import ua.ithillel.oop.classwork.printers.StdoutPrinter;
 
 public class Main {
     public static void main(String[] args) {
