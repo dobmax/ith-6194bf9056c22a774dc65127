@@ -1,9 +1,8 @@
-package ua.ithillel.oop.abstraction;
+package ua.ithillel.oop.abstraction.classwork;
 
-import ua.ithillel.oop.abstraction.engine.AirEngine;
-import ua.ithillel.oop.abstraction.engine.BasicEngine;
-import ua.ithillel.oop.abstraction.engine.Engine;
-import ua.ithillel.oop.abstraction.engine.WaterEngine;
+import ua.ithillel.oop.abstraction.classwork.engine.AirEngine;
+import ua.ithillel.oop.abstraction.classwork.engine.Engine;
+import ua.ithillel.oop.abstraction.classwork.engine.WaterEngine;
 
 public class Main {
 

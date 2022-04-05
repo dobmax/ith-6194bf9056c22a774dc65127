@@ -1,4 +1,4 @@
-package ua.ithillel.oop.abstraction.engine;
+package ua.ithillel.oop.abstraction.classwork.engine;
 
 /**
  * Цель: обеспечение контракта через гарантировано публичные методы

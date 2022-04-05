@@ -1,4 +1,4 @@
-package ua.ithillel.oop.abstraction.engine;
+package ua.ithillel.oop.abstraction.classwork.engine;
 
 /**
  * 1. Насыщение абстракцию деталями
