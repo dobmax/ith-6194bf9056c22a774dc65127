@@ -1,4 +1,4 @@
-package ua.ithillel.inheritance;
+package ua.ithillel.inheritance.classwork;
 
 /**
  * Любой класс-прородитель неявно наследуется от класса Object

@@ -1,6 +1,6 @@
-package ua.ithillel.inheritance.deeper;
+package ua.ithillel.inheritance.classwork.deeper;
 
-import ua.ithillel.inheritance.Engine;
+import ua.ithillel.inheritance.classwork.Engine;
 
 public class OilEngine extends Engine {
     public OilEngine() {

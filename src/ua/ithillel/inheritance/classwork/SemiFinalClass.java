@@ -1,4 +1,4 @@
-package ua.ithillel.inheritance;
+package ua.ithillel.inheritance.classwork;
 
 public class SemiFinalClass {
     public void foo1() {

@@ -1,4 +1,4 @@
-package ua.ithillel.inheritance;
+package ua.ithillel.inheritance.classwork;
 
 /**
  * Это и есть техническое проявление наследования, слово `extends`

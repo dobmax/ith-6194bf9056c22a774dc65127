@@ -1,4 +1,4 @@
-package ua.ithillel.inheritance;
+package ua.ithillel.inheritance.classwork;
 
 public class WaterEngine extends Engine {
     public WaterEngine(String model) {

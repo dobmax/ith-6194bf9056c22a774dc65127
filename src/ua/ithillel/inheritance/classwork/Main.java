@@ -1,6 +1,6 @@
-package ua.ithillel.inheritance;
+package ua.ithillel.inheritance.classwork;
 
-import ua.ithillel.inheritance.deeper.OilEngine;
+import ua.ithillel.inheritance.classwork.deeper.OilEngine;
 
 public class Main {
     public static void main(String[] args) {
