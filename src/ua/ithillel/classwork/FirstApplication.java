@@ -1,4 +1,4 @@
-package ua.ithillel;
+package ua.ithillel.classwork;
 
 import java.util.ArrayList;
 import java.util.List;

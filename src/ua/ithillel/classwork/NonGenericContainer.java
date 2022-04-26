@@ -1,4 +1,4 @@
-package ua.ithillel;
+package ua.ithillel.classwork;
 
 public class NonGenericContainer {
     private final Object val;

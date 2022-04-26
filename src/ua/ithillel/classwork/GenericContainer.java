@@ -1,4 +1,4 @@
-package ua.ithillel;
+package ua.ithillel.classwork;
 
 /**
  * T - type

@@ -1,4 +1,4 @@
-package ua.ithillel;
+package ua.ithillel.classwork;
 
 public final class CharSequenceUtils {
 
