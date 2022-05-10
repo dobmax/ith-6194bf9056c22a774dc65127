@@ -1,4 +1,4 @@
-package ua.ithillel.exceptions;
+package ua.ithillel.exceptions.classwork;
 
 public class Main {
 
