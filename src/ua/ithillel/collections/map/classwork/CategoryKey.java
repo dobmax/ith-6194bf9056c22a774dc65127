@@ -1,4 +1,4 @@
-package ua.ithillel.collections.map;
+package ua.ithillel.collections.map.classwork;
 
 import java.util.Objects;
 
