@@ -1,4 +1,4 @@
-package ua.ithillel.io;
+package ua.ithillel.io.classwork;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
