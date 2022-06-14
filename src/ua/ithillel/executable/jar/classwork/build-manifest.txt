@@ -1,2 +1,0 @@
-Main-Class: ua.ithillel.executable.jar.classwork.Main
-
