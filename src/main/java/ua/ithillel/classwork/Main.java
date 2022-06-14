@@ -1,4 +1,4 @@
-package ua.ithillel.executable.jar.classwork;
+package ua.ithillel.classwork;
 
 public class Main {
     /**
