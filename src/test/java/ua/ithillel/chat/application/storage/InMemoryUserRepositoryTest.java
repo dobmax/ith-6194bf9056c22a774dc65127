@@ -39,12 +39,12 @@ class InMemoryUserRepositoryTest {
     @Test
     void shouldFetchExistingUser_byUsernameAndLogin_whenRequestedFromInMemoryRepository() {
         repository = new InMemoryUserRepository(mockUserRegistry = Set.of(new User("Maks", "qwerty")));
-        assertThat(repository.findByUsernameAndPassword("Maks", "qwerty")).isNotEmpty();
+        assertThat(repository.findByUsername("Maks")).isNotEmpty();
     }
 
     @Test
     void shouldFetchNothing_whenRequestedUser_byUsernameAndLogin_doesNotExistInMemoryRepository() {
-        assertThat(repository.findByUsernameAndPassword("Unknown", "qwerty")).isEmpty();
+        assertThat(repository.findByUsername("Unknown")).isEmpty();
     }
 
 }

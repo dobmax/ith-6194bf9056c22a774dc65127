@@ -1,5 +1,4 @@
 package ua.ithillel.chat.application.security;
 
-public interface LoggedUser {
-    String getUsername();
+public record LoggedUser(String username, String password) {
 }

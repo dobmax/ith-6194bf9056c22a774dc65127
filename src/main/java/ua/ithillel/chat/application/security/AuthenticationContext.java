@@ -5,7 +5,5 @@ package ua.ithillel.chat.application.security;
  *  |
  * SRP - Single Responsibility Principle
  */
-public interface AuthenticationContext {
-    LoggedUser getUser();
-    void addUser(LoggedUser user);
+public final record AuthenticationContext(LoggedUser user) {
 }

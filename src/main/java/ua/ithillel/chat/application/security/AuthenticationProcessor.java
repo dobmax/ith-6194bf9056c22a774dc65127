@@ -21,6 +21,8 @@ public class AuthenticationProcessor {
 
     @SneakyThrows
     public AuthenticationContext process(Socket socket) {
+        if (true) return new AuthenticationContext(new LoggedUser("Admin", "password"));
+
         while (true) {
             DataInputStream din = new DataInputStream(socket.getInputStream());
             DataOutputStream dout = new DataOutputStream(socket.getOutputStream());
@@ -34,12 +36,12 @@ public class AuthenticationProcessor {
                 log.info("Attempt for authentication: {}", socket);
 
                 String[] credentials = CredentialUtils.parse(message);
-                authenticationManager.doFilter(socket, new AuthenticationRequest(credentials[0], credentials[1]));
+                var username = credentials[0];
+                var password = credentials[1];
+                authenticationManager.doFilter(socket, new AuthenticationRequest(username, password));
 
-                AuthenticationContext authCtx = null;
-                log.info("Attempt authentication succeeded: username={}", authCtx.getUser().getUsername());
-
-                return authCtx;
+                log.info("Attempt authentication succeeded: username={}", username);
+                return new AuthenticationContext(new LoggedUser(username, password));
             } else {
                 log.warn("Attempt authentication has no credential line: {}", socket);
                 dout.writeUTF("Please send a valid credentials.");

@@ -8,15 +8,15 @@ import ua.ithillel.chat.application.security.AuthenticationProcessor;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.ArrayList;
 import java.util.List;
 
 public class ChatServer {
 
     private static final Logger log = LogManager.getLogger(ChatServer.class);
 
-    List<ClientHandler> clientHandlers;
-    AuthenticationProcessor authenticationProcessor;
-    BroadcastMessenger broadcastMessenger;
+    List<ClientHandler> clientHandlers = new ArrayList<>();
+    AuthenticationProcessor authenticationProcessor = new AuthenticationProcessor(null);
 
     public ChatServer(int port) {
         log.info("Chat Server is starting up ...");
@@ -31,7 +31,7 @@ public class ChatServer {
                         AuthenticationContext ctx = authenticationProcessor.process(potentialClient);
                         clientHandlers.add(
                                 new BasicClientHandler(
-                                        ctx.getUser().getUsername(),
+                                        ctx.user().username(),
                                         potentialClient.getInputStream(),
                                         potentialClient.getOutputStream(),
                                         () -> clientHandlers.stream()
